@@ -1,0 +1,126 @@
+@import '../node_modules/foundation-sites/scss/util/util';
+@import '../node_modules/foundation-sites/scss/settings/settings';
+@import '../node_modules/foundation-sites/scss/settings/settingsoverride';
+@import 'foundation';
+
+// Global styles
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+
+// Generic components
+@include foundation-button;
+@include foundation-button-group;
+@include foundation-close-button;
+@include foundation-label;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-switch;
+@include foundation-table;
+// Basic components
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-dropdown;
+@include foundation-pagination;
+@include foundation-tooltip;
+
+// Containers
+@include foundation-accordion;
+@include foundation-media-object;
+@include foundation-orbit;
+@include foundation-responsive-embed;
+@include foundation-tabs;
+@include foundation-thumbnail;
+// Menu-based containers
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-accordion-menu;
+@include foundation-drilldown-menu;
+@include foundation-dropdown-menu;
+
+// Layout components
+@include foundation-off-canvas;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-title-bar;
+@include foundation-top-bar;
+
+// Helpers
+@include foundation-float-classes;
+// @include foundation-flex-classes;
+@include foundation-visibility-classes;
+// @include foundation-prototype-classes;
+
+$global-font: Quicksand, sans-serif;
+$img-size: 300px;
+$primary: white;
+$secondary: #F5CE00;
+
+body {
+	margin-bottom: 0px;
+	background: url("../resources/stars.svg");
+}
+
+.home-title {
+  	font-family: 'Amatic SC', cursive;
+  	font-size: 200%;
+  	font-weight: lighter;
+  	color: white;
+  	padding-left: 30px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.home-title:hover {
+  color: white; }
+
+.menu-title {
+	font-family: $global-font;
+	color: $primary; 
+}
+
+.drop-item {
+	color: $primary;
+}
+.drop-item:hover {
+	color:$secondary;
+}
+
+.custom-card{
+	@include card-container(rgba(0,0,0,0.89), white, 1px, 1px, 10px, 5px);
+	font-family: $global-font;
+	min-height: 280px;
+}
+
+.custom-card-divider{
+	@include card-divider;
+	background-color: black;
+	color: $secondary;
+}
+
+footer{
+margin-bottom: 0;
+bottom: 0;
+position: fixed;
+width: 100%;
+height: 50px;
+}
+
+.content {
+	margin:2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.footer-song {
+	color: white;
+	padding-left: 20px; 
+	padding-top: 40px;
+}

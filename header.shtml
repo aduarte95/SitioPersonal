@@ -1,0 +1,21 @@
+<div class="top-bar">
+	  <div class="top-bar-left">
+		<ul class="dropdown menu" data-dropdown-menu>
+		  <li><a class="home-title" href="index.html">Alexa Duarte</a></li>
+		</ul>
+	  </div>
+	  <div class="top-bar-right">
+		<ul class="dropdown menu" data-dropdown-menu>
+		  <li>
+			<a class="drop-item">Secciones</a>
+			<ul>
+			  <li><a class="drop-item" href="objetives.html">Mis Objetivos</a></li>
+			  <li><a class="drop-item" href="computacion.html">Computación</a></li>
+			  <li><a class="drop-item" href="hobbies.html">Pasatiempos</a></li>
+			  <li><a class="drop-item" href="about.html">Acerca de este sitio</a></li>
+			  <li><a class="drop-item" href="contact.html">Contácteme</a></li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	</div>
