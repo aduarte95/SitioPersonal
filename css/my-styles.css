@@ -4704,8 +4704,14 @@ body {
   font-family: Quicksand, sans-serif;
   color: white; }
 
+.drop-item-inv {
+  color: black; }
+
+.drop-item-inv:hover {
+  color: rebeccapurple; }
+
 .drop-item {
-  color: white; }
+  color: mediumpurple; }
 
 .drop-item:hover {
   color: #F5CE00; }
@@ -4724,6 +4730,23 @@ body {
   font-family: Quicksand, sans-serif;
   min-height: 280px; }
   .custom-card > :last-child {
+    margin-bottom: 0; }
+
+.custom-card-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 1px;
+  border: 1px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.89);
+  box-shadow: 5px;
+  overflow: hidden;
+  color: white;
+  font-family: Quicksand, sans-serif;
+  min-height: 200px;
+  margin-top: 2%; }
+  .custom-card-info > :last-child {
     margin-bottom: 0; }
 
 .custom-card-divider {
@@ -4752,3 +4775,21 @@ footer {
   color: white;
   padding-left: 20px;
   padding-top: 40px; }
+
+div.container4 {
+  height: 200px;
+  position: relative; }
+
+div.container4 p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: rebeccapurple; }
+
+.title-font {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 200%; }

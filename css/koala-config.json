@@ -41,7 +41,7 @@
 	"customOptions": [],
 
 	// An array of filesystem paths or importers which should be searched for Sass templates imported with the @import directive.
-	"includePaths": ["C:/Users/alexa/Desktop/foundation/node_modules/foundation-sites/scss"],
+	"includePaths": ["C:/Users/alexa/Desktop/SitioPersonal/node_modules/foundation-sites/scss"],
 
 	// A array of ruby libraries, require them before running Sass.
 	"requireLibs": []

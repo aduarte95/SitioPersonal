@@ -62,6 +62,8 @@ $global-font: Quicksand, sans-serif;
 $img-size: 300px;
 $primary: white;
 $secondary: #F5CE00;
+$aditional: mediumpurple;
+$over-white: rebeccapurple;
 
 body {
 	margin-bottom: 0px;
@@ -72,24 +74,31 @@ body {
   	font-family: 'Amatic SC', cursive;
   	font-size: 200%;
   	font-weight: lighter;
-  	color: white;
+  	color: $primary;
   	padding-left: 30px;
 	padding-bottom: 8px;
 	padding-top: 8px;
 }
 
 .home-title:hover {
-  color: white; }
+  color: $primary; }
 
 .menu-title {
 	font-family: $global-font;
 	color: $primary; 
 }
 
-.drop-item {
-	color: $primary;
+.drop-item-inv {
+	color: black;
 }
-.drop-item:hover {
+.drop-item-inv:hover{
+	color:$over-white;
+}
+.drop-item {
+	color: $aditional;
+}
+
+.drop-item:hover,{
 	color:$secondary;
 }
 
@@ -97,6 +106,13 @@ body {
 	@include card-container(rgba(0,0,0,0.89), white, 1px, 1px, 10px, 5px);
 	font-family: $global-font;
 	min-height: 280px;
+}
+
+.custom-card-info {
+	@include card-container(rgba(0,0,0,0.89), white, 1px, 1px, 10px, 5px);
+	font-family: $global-font;
+	min-height: 200px;
+	margin-top: 2%;
 }
 
 .custom-card-divider{
@@ -124,3 +140,21 @@ height: 50px;
 	padding-left: 20px; 
 	padding-top: 40px;
 }
+
+div.container4 {
+    height: 200px;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color:$over-white;}
+
+  .title-font {
+      font-family: 'Amatic SC', cursive;
+      font-weight:bold;
+      font-size:200%;
+  }
