@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<!--#include file="links.shtml"-->
+<title>Alexa Duarte - Cursos preferidos</title>
+</head>
+
+<body>
+	<!--#include file="header.shtml"-->
+		
+	<div class="content">
+		<div class="grid-x">
+			<div class="cell large-5 text-center">
+				   <a href="computacion.shtml"><img alt="Computación" src="resources/images/Computacion.svg" style="max-height: 200px"></a>
+			</div>
+			<div class="cell small-offset-1 small-10 large-auto">
+				  <div class="custom-card-info">
+					<div class="custom-card-divider">
+						Cursos preferidos
+					</div> 
+					<div class="card-section">
+						<p>Los cursos que más me han gustado son:</p>
+						<ul>
+							<li>Estructuras de Datos y Algoritmos</li>
+							<li>Autómatas y compiladores</li>
+							<li>Diseño de videojuegos</li>
+							<li>Arquitectura de computadores</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--#include file="footer.shtml"-->
+
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/what-input/dist/what-input.js"></script>
+	<script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

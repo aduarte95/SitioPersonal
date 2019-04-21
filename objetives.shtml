@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<!--#include file="links.shtml"-->
+<title>Alexa Duarte - Mis objetivos</title>
+</head>
+
+<body>
+	<!--#include file="header.shtml"-->
+		
+	<div class="content">
+		<div class="grid-x">
+			<div class="cell large-5 text-center">
+				<img alt="Mis objetivos" src="resources/images/Mis objetivos.svg" style="max-height: 200px">
+			</div>
+		</div>
+
+		<div class="grid-x">
+				<div class="cell small-2 small-offset-9 large-offset-10">
+					<img alt="cat" src="resources/images/cat.svg" style="max-height: 200px">
+				</div>
+		</div>
+		
+		<div class="grid-x">
+			<div class="cell small-offset-1 small-10 large-auto">
+				<div class="custom-card">
+					<div class="custom-card-divider">
+						Graduarme
+					</div> 
+					<div class="card-section">
+						Pasar todas las materias de este semestre y terminar el TCU.
+					</div>
+				</div>
+			</div>
+			<div class="cell small-offset-1 small-10 large-offset-1 large-auto">
+				<div class="custom-card">
+					<div class="custom-card-divider">
+						Ayudar a mi familia
+					</div> 
+					<div class="card-section">
+						Trabajar para poder aportar económicamente en mi casa. Devolverle a mis papás todo lo que han hecho por mí.
+					</div>
+				</div>
+			</div>
+			<div class="cell small-offset-1 small-10 large-offset-1 large-auto">
+				<div class="custom-card">
+					<div class="custom-card-divider">
+						Darle a Misty un mejor futuro
+					</div> 
+						<img alt="Misty" src="resources/images/misty.jpg">
+					<div class="card-section text-center">Misty</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--#include file="footer.shtml"-->
+	
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/what-input/dist/what-input.js"></script>
+	<script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

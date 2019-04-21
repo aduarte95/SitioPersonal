@@ -1,3 +1,4 @@
+<footer>
 <div class="top-bar">
 	  <div class="top-bar-left">
 		<ul class="dropdown menu" data-dropdown-menu>
@@ -11,14 +12,15 @@
 	  <div class="top-bar-right">
 		<ul class="dropdown menu" data-dropdown-menu>
 			<li>
-			<a class="drop-item" href="https://twitter.com/a_duarte95"><img alt="twitter" src="resources/twitter-icon.png" width="40px"></a>
+			<a class="drop-item" href="https://twitter.com/a_duarte95"><img alt="twitter" src="resources/images/twitter-icon.png" width="40px"></a>
 		  </li>
 			<li>
-			<a class="drop-item" href="https://www.linkedin.com/in/alexa-duarte-2721a5ab/"><img alt="linkedin" src="resources/linkedin-icon.png" width="40px"></a>
+			<a class="drop-item" href="https://www.linkedin.com/in/alexa-duarte-2721a5ab/"><img alt="linkedin" src="resources/images/linkedin-icon.png" width="40px"></a>
 		  </li>
 		  <li>
-			<a class="drop-item" href="https://github.com/aduarte95"><img alt="github" src="resources/github-icon.png" width="40px"></a>
+			<a class="drop-item" href="https://github.com/aduarte95"><img alt="github" src="resources/images/github-icon.png" width="40px"></a>
 		  </li>
 		</ul>
 	  </div>
 	</div>
+    </footer>

@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+<head>
+<!--#include file="links.shtml"-->
+<title>Alexa Duarte Roldán</title>
+</head>
+
+<body>
+	<!--#include file="header.shtml"-->
+		
+	<div class="content">
+		<div class="grid-x">
+			<div class="cell large-5 text-center">
+		  		<img alt="Pasatiempos" src="resources/images/Pasatiempos.svg" style="max-height: 200px">  
+			</div>
+		</div>
+		
+		<div class="grid-x">
+			<div class="cell small-offset-9 large-offset-11 large-1">
+				<img alt="cat" src="resources/images/cat.svg" style="max-height: 200px">
+			</div>
+		</div>
+		
+		<div class="grid-x">
+			<div class="cell small-offset-1 small-10 large-auto">
+				<div class="custom-card">
+					<div class="custom-card-divider">
+						Caminatas
+					</div> 
+					<div class="card-section">
+						Caminar en senderos de los diferentes Parques Nacionales y donde sea que pueda caminar bastante rodeada de naturaleza. 
+					</div>
+				</div>
+			</div>
+			<div class="cell small-offset-1 small-10 large-offset-1 large-auto">
+				<div class="custom-card">
+					<div class="custom-card-divider">
+						Escuchar música
+					</div> 
+					<div class="card-section">
+						Escuchar música mientras viajo. Siempre abierta a nueva música.
+						Mis grupos favoritos son: Pink Floyd, Radiohead, The Smiths, ...
+					</div>
+				</div>
+			</div>
+			<div class="cell small-offset-1 small-10 large-offset-1 large-auto">
+				<div class="custom-card">
+					<div class="custom-card-divider">
+						Salir
+					</div> 
+					<div class="card-section">
+						Pasar tiempos con mi familia y amigos, donde sea :)
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--#include file="footer.shtml"-->
+
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/what-input/dist/what-input.js"></script>
+	<script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
